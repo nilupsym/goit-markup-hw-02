@@ -11,7 +11,8 @@
 :root {
   --main-font: "Roboto Mono", monospace;
   --logo-font: "Raleway", sans-serif;
-  --title-color: #ffffff;
+  --title-color: #212121;
+  --main-text-color: #757575
   --section-background-color: #f5f4fa;
   --footer-background-color: #2f303a;
   --footer-link-color: rgba(255, 255, 255, 0.6);
@@ -66,7 +67,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  /* color: var(--title-color); */
+  /* color: #ffffff; */
 }
 .hero-button {
   font-weight: 700;
@@ -80,4 +81,21 @@ body {
 .hero-button:focus {
   background-color: var(--accent-color);
   color: #ffffff;
+}
+/* ПОЧЕМУ МЫ */
+.subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.why-are-we-feature {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color)
 }
