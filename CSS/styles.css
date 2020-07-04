@@ -33,7 +33,6 @@ body {
 }
 .logo {
   font-family: var(--logo-font);
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -98,4 +97,17 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-color)
+}
+/* ЧЕМ МЫ ЗАНИМАЕМСЯ */
+.title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-color);
+}
+.what-we-do-subtitle {
+    text-align: center;
+    /* color: #ffffff; */
 }
