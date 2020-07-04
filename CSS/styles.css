@@ -25,6 +25,11 @@ body {
   background-color: #ffffff;
   list-style: none;
 }
+
+.address {
+  font-style: normal;
+}
+
 .link {
   text-decoration: none;
 }
@@ -136,19 +141,26 @@ body {
 .footer {
   background-color: var(--footer-background-color);
 }
-footer-address-list-item-link {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  /* color: var(--footer-link-color); */
-}
+
 .join-us {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer-tel,
+.footer-mail,
+.footer-location {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-location {
   color: #ffffff;
 }
