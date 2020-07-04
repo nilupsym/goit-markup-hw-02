@@ -12,7 +12,7 @@
   --main-font: "Roboto Mono", monospace;
   --logo-font: "Raleway", sans-serif;
   --title-color: #212121;
-  --main-text-color: #757575
+  --main-text-color: #757575;
   --section-background-color: #f5f4fa;
   --footer-background-color: #2f303a;
   --footer-link-color: rgba(255, 255, 255, 0.6);
@@ -96,18 +96,39 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--main-text-color)
+  color: var(--main-text-color);
 }
 /* ЧЕМ МЫ ЗАНИМАЕМСЯ */
 .title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
 }
 .what-we-do-subtitle {
-    text-align: center;
-    /* color: #ffffff; */
+  text-align: center;
+  /* color: #ffffff; */
 }
+/* НАША КОМАНДА */
+.team {
+  background-color: var(--section-background-color);
+}
+.team-list-item-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+.team-list-item-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+/* ПОСТОЯННЫЕ КЛИЕНТЫ */
