@@ -9,7 +9,7 @@
 цвет ссылок футере rgba(255, 255, 255, 0.6);
  */
 :root {
-  --main-font: "Roboto Mono", monospace;
+  --main-font: "Roboto", sans-serif;
   --logo-font: "Raleway", sans-serif;
   --title-color: #212121;
   --main-text-color: #757575;
